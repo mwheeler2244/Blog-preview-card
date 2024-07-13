@@ -1,0 +1,84 @@
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+/*=============== HOME ===============*/
+body {
+  font-family: "figtree", sans-serif;
+  line-height: 1.5;
+}
+section {
+  min-height: 100vh;
+  background-color: var(--Yellow);
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: var(--White);
+  max-width: 375px;
+  margin-inline: auto;
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 0px black;
+}
+.home__content > * {
+  padding-top: 0.75rem;
+}
+
+/*=============== BUTTON ===============*/
+.btn {
+  background-color: var(--Yellow);
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 0.35rem 1rem;
+}
+p {
+  font-size: 0.85rem;
+}
+p:nth-child(4) {
+  color: var(--Grey);
+}
+.footer {
+  display: flex;
+  align-items: center;
+}
+.footer img {
+  transform: scale(0.6);
+}
+.home__picture img {
+  margin-inline: auto;
+  width: 100%;
+}
+/*=============== LOGOS ===============*/
+
+/*=============== POPULAR ===============*/
+
+/*=============== CONTACT ===============*/
+
+/*=============== SUBSCRIBE ===============*/
+
+/*=============== FOOTER ===============*/
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+/* For medium devices */
+
+/* For large devices */
